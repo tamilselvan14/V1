@@ -1,5 +1,5 @@
-import HomeScreen from '/Users/tamilselvan/V1/Screens/HomeScreen.jsx';
-import ProfileScreen from '/Users/tamilselvan/V1/Screens/ProfileScreen.jsx';
+import HomeScreen from './Home/HomeScreen.jsx';
+import ProfileScreen from './Profile/ProfileScreen.jsx';
 import ServiceScreen from '/Users/tamilselvan/V1/Screens/ServiceScreen.jsx';
 import {NavigationContainer,NavigationIndependentTree} from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
