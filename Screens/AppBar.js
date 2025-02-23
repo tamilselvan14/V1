@@ -1,13 +1,13 @@
 import HomeScreen from './Home/HomeScreen.jsx';
 import ProfileScreen from './Profile/ProfileScreen.jsx';
-import ServiceScreen from '/Users/tamilselvan/V1/Screens/ServiceScreen.jsx';
+import ServiceScreen from '../Screens/ServiceScreen.jsx';
 import {NavigationContainer,NavigationIndependentTree} from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-reanimated';
 import {createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from "react-native-vector-icons/Ionicons";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
-import UserScreen from '/Users/tamilselvan/V1/Screens/UserScreen.jsx';
+import UserScreen from '../Screens/UserScreen.jsx';
 
 function AppBar(){
   const TabNav = createBottomTabNavigator();

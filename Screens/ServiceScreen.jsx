@@ -34,21 +34,21 @@ const ServiceScreen = () => {
       {/* Help Card */}
       <Card
         title="Help"
-        icon={require('/Users/tamilselvan/V1/assets/welcome.jpg')} // replace with your image path
+        icon={require('../assets/welcome.jpg')} // replace with your image path
         colors={['#DDA8F6', '#C785F5']}
       />
 
       {/* Events Card */}
       <Card
         title="Events"
-        icon={require('/Users/tamilselvan/V1/assets/welcome.jpg')} // replace with your image path
+        icon={require('../assets/welcome.jpg')} // replace with your image path
         colors={['#65CFFF', '#A3E4FF']}
       />
 
       {/* Gadgets Card */}
       <Card
         title="Gadgets"
-        icon={require('/Users/tamilselvan/V1/assets/welcome.jpg')} // replace with your image path
+        icon={require('../assets/welcome.jpg')} // replace with your image path
         colors={['#49C5A6', '#8BFBE7']}
       />
     </View>

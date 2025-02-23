@@ -27,7 +27,7 @@ const C1Screen = () => {
       <View style={styles.info}>
         <Image
           style={styles.icon}
-          source={require('/Users/tamilselvan/V1/assets/welcome.jpg')} // Placeholder image
+          source={require('../../assets/mainLogo.png')} // Placeholder image
         />
         <View style={styles.details}>
           <Text style={styles.name}>{item.name}</Text>

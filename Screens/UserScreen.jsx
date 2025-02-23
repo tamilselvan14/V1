@@ -3,12 +3,12 @@ import { View, Text, StyleSheet,TouchableOpacity, FlatList, Image } from 'react-
 
 const UserScreen = (props) => {
   const gridData = [
-    { id: '1', name: 'Item 1', image: require('/Users/tamilselvan/V1/assets/mainLogo.png') },
-    { id: '2', name: 'Item 2', image: require('/Users/tamilselvan/V1/assets/mainLogo.png') },
-    { id: '3', name: 'Item 3', image: require('/Users/tamilselvan/V1/assets/mainLogo.png') },
-    { id: '4', name: 'Item 4', image: require('/Users/tamilselvan/V1/assets/mainLogo.png') },
-    { id: '5', name: 'Item 5', image: require('/Users/tamilselvan/V1/assets/mainLogo.png') },
-    { id: '6', name: 'Item 6', image: require('/Users/tamilselvan/V1/assets/mainLogo.png') },
+    { id: '1', name: 'Item 1', image: require('../assets/mainLogo.png') },
+    { id: '2', name: 'Item 2', image: require('../assets/mainLogo.png') },
+    { id: '3', name: 'Item 3', image: require('../assets/mainLogo.png') },
+    { id: '4', name: 'Item 4', image: require('../assets/mainLogo.png') },
+    { id: '5', name: 'Item 5', image: require('../assets/mainLogo.png') },
+    { id: '6', name: 'Item 6', image: require('../assets/mainLogo.png') },
   ];
 
   const renderGridItem = ({ item, navigation }) => (

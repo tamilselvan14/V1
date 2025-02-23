@@ -63,7 +63,7 @@ const ProfileScreen = (props) => {
      
       <View style={styles.profileSection}>
         <Image
-          source={require('/Users/tamilselvan/V1/assets/welcome.jpg')}
+          source={require('../../assets/welcome.jpg')}
           style={styles.profileImage}
         />
         <View style={styles.statsContainer}>

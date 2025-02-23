@@ -74,7 +74,7 @@ const EditProfile = () => {
       <View style={styles.avatarContainer}>
         <Avatar.Image
           size={100}
-          source={avatar ? { uri: avatar } : require('/Users/tamilselvan/V1/assets/welcome.jpg')}
+          source={avatar ? { uri: avatar } : require('../../assets/welcome.jpg')}
         />
         <TouchableOpacity style={styles.editAvatarButton} onPress={pickImage}>
           <Ionicons name="camera" size={20} color="#fff" />
