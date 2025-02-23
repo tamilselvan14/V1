@@ -6,10 +6,10 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-reanimated';
-import Welcome from '/Users/tamilselvan/V1/Screens/Login&Register/Welcome.jsx';
+import Welcome from './Screens/Login&Register/Welcome.jsx';
 import EditProfile from './Screens/Profile/EditProfile.jsx';
 import PostScreen from './Screens/Home/PostScreen.js';
-import CommunityCreateScreen from'/Users/tamilselvan/V1/Screens/Community/CommunityCreateScreen.js';
+import CommunityCreateScreen from'./Screens/Community/CommunityCreateScreen.js';
 
 function App(){
   const Stack = createNativeStackNavigator();
