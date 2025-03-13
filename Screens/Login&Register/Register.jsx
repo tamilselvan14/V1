@@ -47,7 +47,7 @@ function RegisterScreen() {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.logo} source={require('./mainLogo.png')} />
+      <Image style={styles.logo} source={require('../../assets/mainLogo.png')} />
       <Text style={styles.header}>Register</Text>
 
       <TextInput style={styles.input} placeholder="Name" value={name} onChangeText={setName} />

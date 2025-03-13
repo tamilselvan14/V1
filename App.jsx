@@ -10,6 +10,8 @@ import Welcome from './Screens/Login&Register/Welcome.jsx';
 import EditProfile from './Screens/Profile/EditProfile.jsx';
 import PostScreen from './Screens/Home/PostScreen.js';
 import CommunityCreateScreen from'./Screens/Community/CommunityCreateScreen.js';
+import LoginScreen from './Screens/Login&Register/LoginRegister.jsx';
+import OTPScreen from './Screens/Login&Register/OTPScreen.jsx';
 
 function App(){
   const Stack = createNativeStackNavigator();
@@ -18,6 +20,7 @@ function App(){
     <SafeAreaProvider>
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen name = "LoginRegister" component={LoginScreen}/>
           <Stack.Screen name = "Welcome" component={Welcome}/> 
           <Stack.Screen name = "Login" component={LoginPage}/>
           <Stack.Screen name = "Register" component={RegisterPage}/>
@@ -26,6 +29,7 @@ function App(){
           <Stack.Screen name = "EditProfile" component={EditProfile}/> 
           <Stack.Screen name = "PostScreen" component={PostScreen}/> 
           <Stack.Screen name = "CommunityCreateScreen" component={CommunityCreateScreen}/> 
+          <Stack.Screen name = "OTPScreen" component={OTPScreen}/>
 
         </Stack.Navigator>
       </NavigationContainer>
